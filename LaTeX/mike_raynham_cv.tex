@@ -1,0 +1,180 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage[parfill]{parskip}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{sectsty}
+
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{DejaVu Serif}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Droid Sans}
+\setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}
+\allsectionsfont{\normalfont\sffamily}
+\raggedright
+
+\title{Mike Raynham\\Curriculum Vitae}
+\author{Mike Raynham}
+
+\setcounter{secnumdepth}{0}
+\begin{document}
+\maketitle
+
+\section{Contact}
+\begin{itemize}
+    \item Mike Raynham
+	\item http://www.mikeraynham.co.uk
+	\item enquiries@mikeraynham.co.uk
+	\item +44 7813 307561
+	\item 46 Bond Street, Macclesfield, SK11 6QS
+\end{itemize}
+
+\section{Summary}
+
+\begin{itemize}
+    \item Diverse experience over 22 years: 8 years using Linux, Apache, nginx and
+          MySQL, plus 13 years using and supporting Windows.
+    \item 3 years programming Perl and supporting Linux, Apache, nginx and MySQL for
+          a high capacity website.
+    \item 2 years as technical lead for a small team of developers and sysadmins.
+\end{itemize}
+
+\section{Work experience}
+
+\subsection{SpareRoom.co.uk}
+\subsubsection{August 2011 to present (Technical Lead)}
+
+SpareRoom.co.uk is one of the busiest flatsharing websites in the UK.
+
+\begin{itemize}
+    \item Technical lead for a small team of developers and sysadmins.
+    \item Introduced unit testing and developed procedures for testing and refactoring
+          legacy code.
+    \item Defined Perl coding standards and introduced code reviews.
+    \item Drove continuous refactoring of code and simplification of server and
+          application architecture, thus leading to code and servers that are easier to
+          maintain.
+    \item Created standardised development and testing environments using Vagrant and
+          Puppet across VirtualBox and remote KVM virtual machines.
+    \item Simplified the release process, making it quicker, safer and more automated.
+    \item Migrated the version control system from Subversion to Git and provided
+          documentation and training.
+    \item Planned, tested and carried out migration of advert photo storage and
+          retrieval from a dedicated server to Amazon S3, using ELB, EC2 and S3.
+    \item Interviewed developers and provided training for new starters.
+    \item Planned and implemented a Perl upgrade from version 5.8 to 5.18.2.
+    \item Planned and implemented a database upgrade from MySQL 4.1.22 to Percona
+          Server 5.6.
+\end{itemize}
+
+\subsection{Self employment}
+\subsubsection{August 2005 to August 2011}
+
+Web development and IT support for small businesses.
+
+\begin{itemize}
+    \item Created database driven websites with custom content management systems.
+    \item Earlier sites used Linux, Apache, MySQL and PHP.  Later sites used Linux,
+          nginx, MySQL and Perl.  For these, I utilised the Catalyst MVC framework and
+          DBIx::Class.
+    \item Hand-coded all HTML and CSS.
+    \item Designed and produced artwork using open source tools (primarily Inkscape
+          and Gimp).
+\end{itemize}
+
+Additional work included:
+
+\begin{itemize}
+    \item The development and testing of installation procedures for a Microsoft
+          Silverlight IIS complaints system that had been designed for local councils
+          by a software development company in Wilmslow.
+    \item The development of an application for Reed Professional Services to extract
+          information from their accounting system, create PDF remittance advice notes,
+          and email these directly to contractors. The application processes around 300
+          remittance advice notes per week.  It was written in MS Visual Basic Express,
+          and used an SQLite database.
+\end{itemize}
+
+\subsection{Cheshire Building Society}
+\subsubsection{July 2001 to April 2003 (Technical Support Programmer)}
+\subsubsection{April 2003 to August 2005 (Infrastructure \& Security Analyst)}
+
+Based in Technical Support, I was part of a small third level support team
+responsible for the all the back end IT systems:
+
+\begin{itemize}
+    \item Testing and maintaining the disaster recovery plan.
+    \item Design, installation and support for all intrusion detection, firewall and
+          other security systems.
+    \item Call-out support for all critical systems, including the core banking
+          applications, security and intrusion detection and e-commerce systems.
+    \item Providing training and support to User Support---the first and second level
+          support team.
+    \item Providing support to the Core Systems Development team.
+\end{itemize}
+
+Projects and responsibilities included:
+
+\begin{itemize}
+    \item Design, implementation and support of the company's anti-virus software and 
+          procedures.
+    \item Design, development and maintenance of a bespoke VB 6.0 application to
+          install security patches and application updates, configure software and
+          hardware settings and perform many other routine tasks at logon, whilst also
+          providing extensive system information logs for all the company's PCs.
+    \item The migration from Novell GroupWise 5.0 to Microsoft Exchange 2000 and
+          Outlook 2002.  This included server installation and configuration, migration
+          of user accounts, and installation of software on all user PCs.
+    \item The development of a bespoke application to automatically create and
+          configure Exchange/Outlook profiles for users.  It allows users to roam from
+          PC to PC whilst maintaining all their settings, without the need for bloated
+          Windows OS roaming profiles.  This ensured that users maintained some of the
+          functionality of GroupWise, whilst also benefiting from the new features of
+          Exchange and Outlook.
+    \item The design and installation of a Microsoft Active Directory environment run
+          in parallel with the existing Novell Directory Services during the migration.
+    \item The installation, configuration and roll-out of the RIM Blackberry messaging
+          system.
+\end{itemize}
+
+\subsection{Building Design Partnership}
+\subsubsection{July 1996 to July 2001}
+
+BDP is a large architectural practice, with offices throughout the country.  I
+was based in the Head Office as a member of the third level support team,
+Central IT Support.
+
+\begin{itemize}
+    \item Provided technical support to first and second level IT support teams.
+    \item Advised on PC hardware selection and standard configuration issues.
+    \item Support and coordination of BDP's anti-virus software and security systems.
+    \item Day to day supervision and training of the Installations Technician.
+    \item Designed validation procedures used for all specialised technical software
+          within the practice.
+\end{itemize}
+
+Projects and responsibilities included:
+
+\begin{itemize}
+    \item The roll-out of Windows NT 4.0 and Windows NT 4.0 Server to all BDP offices.
+    \item The development of a customised Microsoft Internet Explorer for the BDP
+          Intranet.
+    \item Testing and certification of all BDP's software for Year 2000 compliance.
+    \item Development of Windows NT Mandatory Profiles, System Policies and logon
+          scripts.
+    \item Development of various bespoke utility applications using Visual Basic and
+          Visual C++.
+\end{itemize}
+
+\section{Buzzwords}
+
+Perl, MySQL, Apache, nginx, Linux, Git, Subversion, Vim, HTML, CSS,
+VirtualBox, Amazon S3 (Simple Storage Services), Amazon EC2 (Elastic Cloud
+Compute), AWS (Amazon Web Services), Shell Scripting, Sphinx Search, MongoDB,
+PHP, Windows
+
+\end{document}
