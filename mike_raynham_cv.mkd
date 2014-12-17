@@ -129,9 +129,15 @@ Projects and responsibilities included:
 * Development of various bespoke utility applications using Visual Basic and
   Visual C++.
 
+## Atkins Odlin & Partners
+### April 1992 to July 1995
+
+* Computer Administrator.
+* CAD Technician (AutoCAD).
+
 # Buzzwords
 
 Perl, MySQL, Apache, Nginx, Linux, Git, Subversion, Vim, HTML, CSS,
 VirtualBox, Amazon S3 (Simple Storage Services), Amazon EC2 (Elastic Cloud
 Compute), AWS (Amazon Web Services), Shell Scripting, Sphinx Search, MongoDB,
-PHP, Windows
+PHP, Windows, Puppet, Memcached, Varnish
