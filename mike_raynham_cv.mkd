@@ -12,9 +12,9 @@
 
 * Diverse experience over 22 years: 8 years using Linux, Apache, Nginx and
   MySQL, plus 13 years using and supporting Windows.
-* 3 years programming Perl and supporting Linux, Apache, Nginx and MySQL for
+* 4 years programming Perl and supporting Linux, Apache, Nginx and MySQL for
   a high capacity website.
-* 2 years as technical lead for a small team of developers and sysadmins.
+* 3 years as technical lead for a small team of developers and sysadmins.
 
 # Work experience
 
@@ -30,17 +30,22 @@ SpareRoom.co.uk is one of the busiest flatsharing websites in the UK.
 * Drove continuous refactoring of code and simplification of server and
   application architecture, thus leading to code and servers that are easier to
   maintain.
-* Created standardised development and testing environments using Vagrant and
-  Puppet across VirtualBox and remote KVM virtual machines.
+* Created standardised development and testing environments using VirtualBox.
 * Simplified the release process, making it quicker, safer and more automated.
 * Migrated the version control system from Subversion to Git and provided
   documentation and training.
 * Planned, tested and carried out migration of advert photo storage and
   retrieval from a dedicated server to Amazon S3, using ELB, EC2 and S3.
-* Interviewed developers and provided training for new starters.
-* Planned and implemented a Perl upgrade from version 5.8 to 5.18.2.
+* Improved site performance and stability by implementing memcached and
+  gearmand.
 * Planned and implemented a database upgrade from MySQL 4.1.22 to Percona
   Server 5.6.
+* Currently using Cobbler, Kickstart and Puppet to build a new server
+  infrastructure.
+* Using Perl 5.22.0 with Rex and Pinto to create a fully automated release
+  process.
+* Improved recruitment procedures and introduced technical tests; interviewing
+  of technical candidates and providing training for new starters.
 
 ##  Self employment
 ### August 2005 to August 2011
@@ -140,4 +145,4 @@ Projects and responsibilities included:
 Perl, MySQL, Apache, Nginx, Linux, Git, Subversion, Vim, HTML, CSS,
 VirtualBox, Amazon S3 (Simple Storage Services), Amazon EC2 (Elastic Cloud
 Compute), AWS (Amazon Web Services), Shell Scripting, Sphinx Search, MongoDB,
-PHP, Windows, Puppet, Memcached, Varnish
+PHP, Windows, Puppet, Cobbler, Kickstart, Memcached, Gearman, Varnish
