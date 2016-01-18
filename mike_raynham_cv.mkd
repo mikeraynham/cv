@@ -40,8 +40,8 @@ SpareRoom.co.uk is one of the busiest flatsharing websites in the UK.
   gearmand.
 * Planned and implemented a database upgrade from MySQL 4.1.22 to Percona
   Server 5.6.
-* Currently using Cobbler, Kickstart and Puppet to build a new server
-  infrastructure.
+* Migrated core systems to a new data centre, with servers provisioned by
+  Cobbler, Kickstart and Puppet.
 * Using Perl 5.22.0 with Rex and Pinto to create a fully automated release
   process.
 * Improved recruitment procedures and introduced technical tests; interviewing
