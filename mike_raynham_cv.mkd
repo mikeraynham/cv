@@ -2,28 +2,22 @@
 
 # Contact
 
-* Mike Raynham
-* http://www.mikeraynham.co.uk
-* enquiries@mikeraynham.co.uk
-* +44 7813 307561
+* http://www.mikeraynham.co.uk | enquiries@mikeraynham.co.uk | +44 7813 307561
 * 57 Ecton Avenue, Macclesfield, SK10 1RD
 
 # Summary
 
-* Diverse experience over 22 years: 8 years using Linux, Apache, Nginx and
-  MySQL, plus 13 years using and supporting Windows.
-* 4 years programming Perl and supporting Linux, Apache, Nginx and MySQL for
-  a high capacity website.
-* 3 years as technical lead for a small team of developers and sysadmins.
+* Diverse experience over 24 years, with the last 5 years as technical lead for
+  a high capacity website: programming Perl, supporting Linux, Apache HTTP
+  Server, nginx, HAProxy, MySQL, memcached and Gearman.
 
-# Work experience
+# Employment
 
 ##  SpareRoom.co.uk
 ### August 2011 to present (Technical Lead)
 
 SpareRoom.co.uk is one of the busiest flatsharing websites in the UK.
 
-* Technical lead for a small team of developers and sysadmins.
 * Introduced unit testing and developed procedures for testing and refactoring
   legacy code.
 * Defined Perl coding standards and introduced code reviews.
@@ -35,15 +29,17 @@ SpareRoom.co.uk is one of the busiest flatsharing websites in the UK.
 * Migrated the version control system from Subversion to Git and provided
   documentation and training.
 * Planned, tested and carried out migration of advert photo storage and
-  retrieval from a dedicated server to Amazon S3, using ELB, EC2 and S3.
+  retrieval from a physical server to Amazon S3 with an ELB and EC2 front-end.
 * Improved site performance and stability by implementing memcached and
-  gearmand.
+  Gearman.
 * Planned and implemented a database upgrade from MySQL 4.1.22 to Percona
   Server 5.6.
 * Migrated core systems to a new data centre, with servers provisioned by
   Cobbler, Kickstart and Puppet.
 * Using Perl 5.22.0 with Rex and Pinto to create a fully automated release
   process.
+* Led a project to move the website’s core search feature from MySQL to Sphinx
+  Search, reducing load on the RDBMS and improving performance.
 * Improved recruitment procedures and introduced technical tests; interviewing
   of technical candidates and providing training for new starters.
 
@@ -83,7 +79,7 @@ responsible for the all the back end IT systems:
   other security systems.
 * Call-out support for all critical systems, including the core banking
   applications, security and intrusion detection and e-commerce systems.
-* Providing training and support to User Support---the first and second level
+* Providing training and support to User Support -- the first and second level
   support team.
 * Providing support to the Core Systems Development team.
 
@@ -133,6 +129,15 @@ Projects and responsibilities included:
   scripts.
 * Development of various bespoke utility applications using Visual Basic and
   Visual C++.
+
+## Expert Systems Design
+### July 1995 TO July 1996
+
+Expert Systems Design was a small software house that produced software for
+recruitment agencies.
+
+* Development of the core application.
+* Customer support, on-site installations and data migrations.
 
 ## Atkins Odlin & Partners
 ### April 1992 to July 1995
