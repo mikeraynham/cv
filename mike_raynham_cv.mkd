@@ -7,14 +7,23 @@
 
 # Summary
 
-* Diverse experience over 24 years, with the last 5 years as technical lead for
-  a high capacity website: programming Perl, supporting Linux, Apache HTTP
-  Server, nginx, HAProxy, MySQL, memcached and Gearman.
+* Diverse experience over 25 years, and currently working as a senior Perl
+  developer.  For six years prior to that, I was technical lead for a high
+  capacity website: programming Perl, supporting Linux, Apache HTTP Server,
+  nginx, HAProxy, MySQL, memcached and Gearman.
 
 # Employment
 
+## The Register
+### May 2017 to present (Senior Developer)
+
+Senior Developer at The Register, a leading global online tech publication.
+
+* Using Modern Perl, JavaScript, HTML, and CSS, along with MySQL and PostgreSQL
+  to maintain and build both the public facing website and internal tools.
+
 ##  SpareRoom.co.uk
-### August 2011 to present (Technical Lead)
+### August 2011 to May 2017 (Technical Lead)
 
 SpareRoom.co.uk is one of the busiest flatsharing websites in the UK.
 
@@ -83,22 +92,15 @@ Projects and responsibilities included:
 ### July 1996 to July 2001 (Third-Level Technical Support)
 
 * Technical support for first and second level IT support teams.
-* Advised on PC hardware selection and standard configuration issues.
 * Support and coordination of BDP's anti-virus software and security systems.
-* Day to day supervision and training of the Installations Technician.
-* Designed validation procedures used for all specialised technical software
   within the practice.
 
 Projects and responsibilities included:
 
 * The roll-out of Windows NT 4.0 and Windows NT 4.0 Server to all BDP offices.
-* The development of a customised Microsoft Internet Explorer for the BDP
-  Intranet.
 * Testing and certification of all BDP's software for Year 2000 compliance.
 * Development of Windows NT Mandatory Profiles, System Policies and logon
   scripts.
-* Development of various bespoke utility applications using Visual Basic and
-  Visual C++.
 
 ## Expert Systems Design
 ### July 1995 TO July 1996 (Developer & On-Site Support)
@@ -108,6 +110,6 @@ Projects and responsibilities included:
 
 # Buzzwords
 
-Perl, MySQL, Apache, nginx, Linux, Git, Vim, HTML, CSS, VirtualBox, AWS, S3,
-EC2, Shell Scripting, Sphinx Search, MongoDB, PHP, Windows, Puppet, Cobbler,
-Kickstart, memcached, Gearman, Varnish
+Perl, MySQL, Apache, nginx, Linux, Git, Vim, HTML, CSS, JavaScript, VirtualBox,
+AWS, S3, EC2, Shell Scripting, Sphinx Search, PostgreSQL, MongoDB, PHP,
+Windows, Puppet, Cobbler, Kickstart, memcached, Gearman, Varnish.
