@@ -2,21 +2,35 @@
 
 # Contact
 
-* http://www.mikeraynham.co.uk | enquiries@mikeraynham.co.uk | +44 7813 307561
+* mikeraynham@gmail.com | +44 7813 307561
 
 # Summary
 
-* Diverse experience over 27 years, and currently working as a senior Perl
-  developer.  For six years prior to that, I was technical lead for a high
-  capacity website: programming Perl, supporting Linux, Apache HTTP Server,
-  nginx, HAProxy, MySQL, memcached and Gearman.
+* Diverse experience over 32 years, and currently working as Tech Lead and
+  senior Perl developer.  For six years prior to that, I was technical lead for
+  a high capacity website.
 
 # Employment
 
 ## The Register
 ### May 2017 to present (Senior Developer)
 
-Senior Developer at The Register, a leading global online tech publication.
+Tech Lead and Senior Developer at The Register, a leading global online tech
+publication.
+
+### December 2022 to present (Tech Lead)
+
+* Worked towards improved coding standards, code reviews, and the requirement
+  for more comprehensive automated testing.
+* Introduced Apache Kafka to help with the process of breaking apart monolithic
+  code and work towards a more event-driven architecture.
+* Introduced Debezium to enable replication across database systems and to
+  provide a mechanism for Change Data Capture (CDC) and Extract, Transform,
+  Load (ETL).
+* Oversaw and worked on a project to move some services from bare-metal servers
+  to a more resilient and scalable cloud-based architecture.
+
+### May 2017 to December 2022 (Senior Developer)
 
 * Using Modern Perl, JavaScript, HTML, and CSS, along with MySQL and PostgreSQL
   to maintain and build both the public facing website and internal tools.
@@ -72,34 +86,8 @@ SpareRoom.co.uk is one of the busiest flatsharing websites in the UK.
 * Providing training and support to the first and second level support teams,
   and the Core Systems Development team.
 
-Projects and responsibilities included:
-
-* Design, implementation and support of the company's anti-virus software and
-  procedures.
-* Design, development and maintenance of a bespoke VB 6.0 application to
-  install security patches and application updates, configure software, and
-  provide system information logs for all the company’s PCs.
-* The migration from Novell GroupWise 5.0 to Microsoft Exchange 2000 and
-  Outlook 2002.
-* The development of a bespoke application to automatically create and
-  configure Exchange/Outlook profiles for users.
-* The design and installation of a Microsoft Active Directory environment.
-* The installation, configuration and roll-out of the RIM Blackberry messaging
-  system.
-
 ## Building Design Partnership
 ### July 1996 to July 2001 (Third-Level Technical Support)
-
-* Technical support for first and second level IT support teams.
-* Support and coordination of BDP's anti-virus software and security systems.
-  within the practice.
-
-Projects and responsibilities included:
-
-* The roll-out of Windows NT 4.0 and Windows NT 4.0 Server to all BDP offices.
-* Testing and certification of all BDP's software for Year 2000 compliance.
-* Development of Windows NT Mandatory Profiles, System Policies and logon
-  scripts.
 
 ## Expert Systems Design
 ### July 1995 TO July 1996 (Developer & On-Site Support)
@@ -109,6 +97,6 @@ Projects and responsibilities included:
 
 # Buzzwords
 
-Perl, MySQL, Apache, nginx, Linux, Git, Vim, HTML, CSS, JavaScript, VirtualBox,
-AWS, S3, EC2, Shell Scripting, Sphinx Search, PostgreSQL, Windows, Puppet,
-Cobbler, Kickstart, memcached, Gearman, Varnish.
+Amazon Web Services (AWS), Apache HTTP Server, Apache Kafka, CSS, Gearman, Git,
+Google Cloud Platform (GCP), HTML, JavaScript, Linux, MySQL, Perl, PostgreSQL,
+Shell Scripting, Sphinx Search, Vim, VirtualBox, memcached, nginx.
