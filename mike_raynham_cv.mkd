@@ -6,85 +6,93 @@
 
 # Summary
 
-* Diverse experience over 32 years, and currently working as Tech Lead and
-  senior Perl developer.  For six years prior to that, I was technical lead for
-  a high capacity website.
+* Hands-on Tech Lead and senior software engineer with over 30 years of
+  experience across backend development, operations, cloud platforms, and
+  large-scale legacy systems. My strongest background is in Perl, which I have
+  used extensively for high-capacity web systems, daemons, internal tooling,
+  API endpoints, and data-heavy workflows. I also work with SQL, Cloudflare,
+  GCP, and Terraform.  I am steadily building experience with Rust for new
+  services.
+
+* I specialise in modernising long-lived systems, improving performance,
+  diagnosing complex issues, and delivering pragmatic, maintainable solutions.
+
+* Remote, UK.  Open to fully remote roles with flexible working hours, where
+  versatility is valued.
 
 # Employment
 
-## The Register
-### May 2017 to present (Senior Developer)
-
-Tech Lead and Senior Developer at The Register, a leading global online tech
-publication.
-
-### December 2022 to present (Tech Lead)
-
-* Worked towards improved coding standards, code reviews, and the requirement
-  for more comprehensive automated testing.
-* Introduced Apache Kafka to help with the process of breaking apart monolithic
-  code and work towards a more event-driven architecture.
-* Introduced Debezium to enable replication across database systems and to
-  provide a mechanism for Change Data Capture (CDC) and Extract, Transform,
-  Load (ETL).
-* Oversaw and worked on a project to move some services from bare-metal servers
-  to a more resilient and scalable cloud-based architecture.
-
+## Situation Publishing
+### May 2017 to present (Tech Lead)
 ### May 2017 to December 2022 (Senior Developer)
 
-* Using Modern Perl, JavaScript, HTML, and CSS, along with MySQL and PostgreSQL
-  to maintain and build both the public facing website and internal tools.
+Lead engineer for the backend systems that power The Register, a leading global
+online tech publication, along with internal applications and the company's CRM
+and lead-generation platform.  The role spans backend engineering, cloud
+architecture, database design, and modernising deeply embedded legacy systems.
+
+Key contributions:
+
+* Maintaining and extending large-scale Perl systems across publishing
+  infrastructure, internal tools, and daemonised services.
+
+* Supporting a PostgreSQL-backed CRM with Kafka logs and downstream data
+  pipelines.  Rewrote the core contact-matching logic to provide near-instant
+  results, dramatically improving campaign workflows.
+
+* Designing and deploying Google Cloud Platform (GCP) services on Cloud Run,
+  Cloud Build, IAM, VPC access, IAP, HTTPS load balancers, and Private Service
+  Connect.
+
+* Building modular Terraform infrastructure with secure defaults and automated
+  deployments.
+
+* Creating internal APIs and automation utilities, including building new
+  components in Rust as part of incremental modernisation.
+
+* Designing and optimising PostgreSQL and MySQL schemas and queries.
+
+* Integrating Kafka and Debezium for replication, CDC, and event-driven
+  pipelines.
+
+* Diagnosing system-wide production issues, from databases to cloud services.
 
 ##  SpareRoom.co.uk
 ### August 2011 to May 2017 (Technical Lead)
 
-SpareRoom.co.uk is one of the busiest flatsharing websites in the UK.
+Technical Lead for one of the UK's busiest flat-sharing websites.  Responsible
+for improving code quality, performance, scalability, and development
+processes.
 
-* Introduced Perl coding standards, code reviews, unit testing, and procedures
-  for testing and refactoring legacy code.
-* Created standardised development and testing environments using VirtualBox.
-* Migrated version control system from Subversion to Git.
-* Moved advert photo storage from a physical server to Amazon S3 with an ELB
-  and EC2 front-end.
-* Improved site performance and scalability by implementing memcached and
-  Gearman.
-* Moved core systems to a new data centre, with servers provisioned by Cobbler,
-  Kickstart and Puppet.
-* Migrated core database from MySQL 4.1.22 to Percona Server 5.6.
-* Upgraded Perl from 5.8.8 to 5.20.3.
-* Used HAProxy for front-end and database load balancing.
-* Used Perl with Rex and Pinto to create a fully automated release process.
-* Led a project to move the website’s core search feature from MySQL to Sphinx
-  Search.
-* Improved recruitment procedures and introduced technical tests.
+Key achievements:
+
+* Introduced Perl coding standards, code reviews, unit testing, and structured
+  refactoring practices.
+* Migrated version control from Subversion to Git.
+* Improved scalability with memcached and Gearman; upgraded legacy Perl and
+  MySQL systems.
+* Built standardised development/testing environments using VirtualBox.
+* Moved advert photo storage to AWS S3 behind EC2/ELB.
+* Implemented HAProxy for front-end and database load balancing.
+* Automated deployments using Perl, Rex, and Pinto.
+* Led migration of core search from MySQL to Sphinx Search for major
+  performance gains.
 
 ##  Self Employment
 ### August 2005 to August 2011
 
-* Web development and IT support for small businesses.
-* Created database driven websites with custom content management systems.
-* Sites built with Linux, Apache, nginx, MySQL, PHP and Perl (with the Catalyst
-  MVC framework and DBIx::Class).
-* The development of installation procedures for a Microsoft Silverlight IIS
-  complaints system that had been designed for local councils by a software
-  development company in Wilmslow.
-* The development of an application for Reed Professional Services to extract
-  information from their accounting system, create PDF remittance advice notes,
-  and email these directly to contractors.  It was written in MS Visual Basic
-  Express, and used an SQLite database.
+Freelance web development and IT support for small businesses, including
+building database-driven sites (Linux, Apache/nginx, MySQL, PHP, Perl),
+creating custom CMS platforms, and delivering bespoke data-processing
+utilities.
 
 ##  Cheshire Building Society
 ### July 2001 to April 2003 (Technical Support Programmer)
 ### April 2003 to August 2005 (Infrastructure & Security Analyst)
 
-* Part of a small third level support team responsible for the all the back end
-  IT systems.
-* Testing and maintaining the disaster recovery plan.
-* Design, installation and support for all intrusion detection, firewall and
-  other security systems.
-* Call-out support for all critical systems.
-* Providing training and support to the first and second level support teams,
-  and the Core Systems Development team.
+Third-level support and later infrastructure/security work, covering critical
+systems support, disaster recovery testing, and maintaining security and
+firewall systems.
 
 ## Building Design Partnership
 ### July 1996 to July 2001 (Third-Level Technical Support)
@@ -95,8 +103,13 @@ SpareRoom.co.uk is one of the busiest flatsharing websites in the UK.
 ## Atkins Odlin & Partners
 ### April 1992 to July 1995 (Computer Administrator & AutoCAD Technician)
 
-# Buzzwords
+# Technical Skills
 
-Amazon Web Services (AWS), Apache HTTP Server, Apache Kafka, CSS, Gearman, Git,
-Google Cloud Platform (GCP), HTML, JavaScript, Linux, MySQL, Perl, PostgreSQL,
-Shell Scripting, Sphinx Search, Vim, VirtualBox, memcached, nginx.
+* Languages: Perl (primary), JavaScript, SQL (PostgreSQL & MySQL),
+  Rust (novice), Bash
+* Cloud: Google Cloud Platform (Cloud Run, Cloud Build, IAM, IAP, VPC, PSC,
+  AlloyDB)
+* Infrastructure: Terraform, CI/CD pipelines, automated deployments
+* Data & Streaming: PostgreSQL, MySQL, Apache Kafka, Debezium
+* Systems & Ops: Linux, Git, systemd
+* Web: HTML/CSS/JavaScript, Apache HTTP Server
