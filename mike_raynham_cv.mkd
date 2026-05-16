@@ -7,18 +7,21 @@
 # Summary
 
 * Hands-on Tech Lead and senior software engineer with over 30 years of
-  experience across backend development, operations, cloud platforms, and
-  large-scale legacy systems. My strongest background is in Perl, which I have
-  used extensively for high-capacity web systems, daemons, internal tooling,
-  API endpoints, and data-heavy workflows. I also work with SQL, Cloudflare,
-  GCP, and Terraform.  I am steadily building experience with Rust for new
-  services.
+  experience across backend development, cloud platforms, and large-scale
+  legacy systems.
 
-* I specialise in modernising long-lived systems, improving performance,
-  diagnosing complex issues, and delivering pragmatic, maintainable solutions.
+* Specialising in modernising long-lived systems, migrating embedded legacy
+  logic into high-performance architectures.
+
+* Exploring Specification Driven Development (SDD) workflows that use agentic
+  orchestration (LLM agents) to translate business requirements into
+  documented, tested code.
+
+* Experienced with GCP, Terraform, and PostgreSQL, with a track record of
+  decoupling monolithic systems into modular services.
 
 * Remote, UK.  Open to fully remote roles with flexible working hours, where
-  versatility is valued.
+  technical versatility and a disciplined approach to engineering are valued.
 
 # Employment
 
@@ -26,42 +29,43 @@
 ### May 2017 to present (Tech Lead)
 ### May 2017 to December 2022 (Senior Developer)
 
-Lead engineer for the backend systems that power The Register, a leading global
-online tech publication, along with internal applications and the company's CRM
-and lead-generation platform.  The role spans backend engineering, cloud
-architecture, database design, and modernising deeply embedded legacy systems.
+Lead engineer for the backend systems powering The Register and the company's
+lead-generation platform, covering cloud architecture, legacy modernisation,
+and infrastructure automation.
 
-Key contributions:
+* Cut call centre contact searches to near-instant by rewriting the
+  lead-generation matching logic for a PostgreSQL-backed CRM, using
+  denormalised, heavily indexed tables (B-tree, GIN trigram, tsvector), Redis
+  per-campaign queues, and Kafka event logs.
 
-* Maintaining and extending large-scale Perl systems across publishing
-  infrastructure, internal tools, and daemonised services.
+* Progressively decoupling legacy Perl logic by building modern API endpoints,
+  automation utilities, and event-driven pipelines, using Kafka and Debezium
+  for replication and CDC.
 
-* Supporting a PostgreSQL-backed CRM with Kafka logs and downstream data
-  pipelines.  Rewrote the core contact-matching logic to provide near-instant
-  results, dramatically improving campaign workflows.
+* Developed production services in Rust to replace components of monolithic
+  systems, including a database replication monitor, a short-URL redirector,
+  and a Kafka consumer for lead-generation events.  All deployed with
+  Terraform.
 
-* Designing and deploying Google Cloud Platform (GCP) services on Cloud Run,
-  Cloud Build, IAM, VPC access, IAP, HTTPS load balancers, and Private Service
-  Connect.
+* Designing and deploying GCP services (Cloud Run, Cloud Build, IAM, VPC
+  access, IAP, HTTPS load balancers, Private Service Connect) via modular
+  Terraform with secure defaults and automated deployments.
 
-* Building modular Terraform infrastructure with secure defaults and automated
-  deployments.
+* Designing and optimising PostgreSQL/MySQL schemas and queries, and
+  diagnosing system-wide production issues from databases to cloud services.
 
-* Creating internal APIs and automation utilities, including building new
-  components in Rust as part of incremental modernisation.
-
-* Designing and optimising PostgreSQL and MySQL schemas and queries.
-
-* Integrating Kafka and Debezium for replication, CDC, and event-driven
-  pipelines.
-
-* Diagnosing system-wide production issues, from databases to cloud services.
+* Currently exploring agentic coding by designing a workflow where specialised
+  LLM agents produce IEEE 830 specifications, refine them into EARS syntax and
+  Gherkin scenarios, then validate generated code against the resulting
+  BDD/TDD suite and bespoke LLM-oriented coding standards.  The workflow is
+  still in active development; applying it to production coding is the next
+  step.
 
 ##  SpareRoom.co.uk
 ### August 2011 to May 2017 (Technical Lead)
 
-Technical Lead for one of the UK's busiest flat-sharing websites.  Responsible
-for improving code quality, performance, scalability, and development
+Technical Lead for one of the UK's busiest flat-sharing websites, driving
+improvements to code quality, performance, scalability, and development
 processes.
 
 Key achievements:
@@ -75,8 +79,8 @@ Key achievements:
 * Moved advert photo storage to AWS S3 behind EC2/ELB.
 * Implemented HAProxy for front-end and database load balancing.
 * Automated deployments using Perl, Rex, and Pinto.
-* Led migration of core search from MySQL to Sphinx Search for major
-  performance gains.
+* Led the migration of core search from MySQL to Sphinx Search, delivering
+  major performance gains.
 
 ##  Self Employment
 ### August 2005 to August 2011
@@ -90,15 +94,14 @@ utilities.
 ### July 2001 to April 2003 (Technical Support Programmer)
 ### April 2003 to August 2005 (Infrastructure & Security Analyst)
 
-Third-level support and later infrastructure/security work, covering critical
-systems support, disaster recovery testing, and maintaining security and
-firewall systems.
+Third-level support for critical systems, followed by infrastructure and
+security work covering disaster recovery testing and firewall maintenance.
 
 ## Building Design Partnership
 ### July 1996 to July 2001 (Third-Level Technical Support)
 
 ## Expert Systems Design
-### July 1995 TO July 1996 (Developer & On-Site Support)
+### July 1995 to July 1996 (Developer & On-Site Support)
 
 ## Atkins Odlin & Partners
 ### April 1992 to July 1995 (Computer Administrator & AutoCAD Technician)
