@@ -122,7 +122,7 @@ security work covering disaster recovery testing and firewall maintenance.
   Rust (novice), Bash
 * Cloud: Google Cloud Platform (Cloud Run, Cloud Build, IAM, IAP, VPC, PSC,
   AlloyDB)
-* Infrastructure: Terraform, CI/CD pipelines, automated deployments
+* Infrastructure: Terraform, Ansible, CI/CD pipelines, automated deployments
 * Data & Streaming: PostgreSQL, MySQL, Apache Kafka, Debezium
 * Systems & Ops: Linux, Git, systemd
 * Web: HTML/CSS/JavaScript, Apache HTTP Server
