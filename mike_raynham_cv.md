@@ -11,7 +11,11 @@
   legacy systems.
 
 * Specialising in modernising long-lived systems, migrating embedded legacy
-  logic into high-performance architectures.
+  logic into well-tested high-performance architectures.
+
+* An advocate for comprehensive testing, with deep expertise in establishing
+  characterisation tests for modernisation work, and building testing
+  frameworks that help test untestable legacy code.
 
 * Exploring Specification Driven Development (SDD) workflows that use agentic
   orchestration (LLM agents) to translate business requirements into
@@ -36,11 +40,13 @@ and infrastructure automation.
 * Cut call centre contact searches to near-instant by rewriting the
   lead-generation matching logic for a PostgreSQL-backed CRM, using
   denormalised, heavily indexed tables (B-tree, GIN trigram, tsvector), Redis
-  per-campaign queues, and Kafka event logs.
+  per-campaign queues, and Kafka event logs.  All backed by a comprehensive
+  suite of unit and integration tests executed against real, ephemeral
+  databases.
 
 * Progressively decoupling legacy Perl logic by building modern API endpoints,
-  automation utilities, and event-driven pipelines, using Kafka and Debezium
-  for replication and CDC.
+  automation utilities, and event-driven Kafka and Debezium pipelines.  All
+  with thorough, multi-layered testing strategies.
 
 * Developed production services in Rust to replace components of monolithic
   systems, including a database replication monitor, a short-URL redirector,
@@ -57,9 +63,7 @@ and infrastructure automation.
 * Currently exploring agentic coding by designing a workflow where specialised
   LLM agents produce IEEE 830 specifications, refine them into EARS syntax and
   Gherkin scenarios, then validate generated code against the resulting
-  BDD/TDD suite and bespoke LLM-oriented coding standards.  The workflow is
-  still in active development; applying it to production coding is the next
-  step.
+  BDD/TDD suite and bespoke LLM-oriented coding standards.
 
 ##  SpareRoom.co.uk
 ### August 2011 to May 2017 (Technical Lead)
@@ -70,6 +74,12 @@ processes.
 
 Key achievements:
 
+* Led the migration from managed servers to colocation, successfully switching
+  live traffic to the new infrastructure with zero downtime and zero issues.
+  Refactored the codebase to remove years of hard-coded, hardware-specific
+  configurations.  Built a highly available, HAProxy-fronted MySQL read-write
+  and read-only replica architecture to support the move.  Used Puppet for
+  fully reproducible server builds.
 * Introduced Perl coding standards, code reviews, unit testing, and structured
   refactoring practices.
 * Migrated version control from Subversion to Git.
