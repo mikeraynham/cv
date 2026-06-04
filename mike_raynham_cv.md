@@ -30,7 +30,7 @@
 # Employment
 
 ## Situation Publishing
-### May 2017 to present (Tech Lead)
+### December 2022 to present (Tech Lead)
 ### May 2017 to December 2022 (Senior Developer)
 
 Lead engineer for the backend systems powering The Register and the company's
